@@ -24,7 +24,19 @@ class Home extends Model
   }
 
   public function getVideos($id){
-    $querySelect = "SELECT * FROM `videos` WHERE id='$id'";
+    $querySelect = "SELECT * FROM `videos` WHERE slug='$id'";
+    $results = mysqli_query($this->connection, $querySelect);
+    $videos = [];
+    if (mysqli_num_rows($results) > 0) {
+      $videos = mysqli_fetch_all($results);
+    }
+    $this->closeConnect($this->connection);
+    return $videos;
+
+  }
+
+  public function getCategory($id){
+    $querySelect = "SELECT * FROM `videos` WHERE categoryslug = '$id' order by published_at desc";
     $results = mysqli_query($this->connection, $querySelect);
     $videos = [];
     if (mysqli_num_rows($results) > 0) {

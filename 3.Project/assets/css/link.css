@@ -1,0 +1,9 @@
+.link>p>a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.link>p>a,
+.link>p {
+    color: #C3C3C3;
+}

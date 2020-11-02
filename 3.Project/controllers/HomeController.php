@@ -1,5 +1,5 @@
 <?php
-require_once 'models/Home.php';
+require_once './models/Home.php';
 class HomeController
 {
   public function index()
@@ -11,12 +11,18 @@ class HomeController
     require_once 'views/home.php';
   }
 
-  public function watch(){
-    $id = isset($_GET['id']) ? $_GET['id'] : '';
+  public function watch($id){
+    //$id = isset($_GET['id']) ? $_GET['id'] : '';
     $watchModel = new Home();
     $videos = $watchModel->getVideos($id);
     //import file view tương ứng, xử lý biến $books tại view này
     require_once 'views/watchVideo.php';
 
+  }
+
+  public function category($id){
+    $categoryModel = new Home();
+    $category = $categoryModel->getCategory($id);
+    require_once 'views/category.php';
   }
 }
