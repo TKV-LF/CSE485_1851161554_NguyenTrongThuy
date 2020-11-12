@@ -1,0 +1,352 @@
+array (
+  0 => 
+  array (
+    'v_id' => 'qDNhitqkK6M',
+    'v_title' => '(Ma Sói) Độ Thiên Thần và pha bắn tiếng anh như gió của làng Refund.',
+    'v_thumb' => 'https://img.youtube.com/vi/qDNhitqkK6M/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/qDNhitqkK6M?rel=0',
+  ),
+  1 => 
+  array (
+    'v_id' => 'dv5LEDOrrc0',
+    'v_title' => 'Restream hôm qua...',
+    'v_thumb' => 'https://img.youtube.com/vi/dv5LEDOrrc0/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/dv5LEDOrrc0?rel=0',
+  ),
+  2 => 
+  array (
+    'v_id' => '7oQ5OVLyzm8',
+    'v_title' => 'Full Livestream 4/11/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/7oQ5OVLyzm8/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/7oQ5OVLyzm8?rel=0',
+  ),
+  3 => 
+  array (
+    'v_id' => 'PJ4RpqLlisM',
+    'v_title' => '(Ao Làng FO4) Phá bỏ lời nguyền ông vua về nhì sau 9 lần thất bại.',
+    'v_thumb' => 'https://img.youtube.com/vi/PJ4RpqLlisM/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/PJ4RpqLlisM?rel=0',
+  ),
+  4 => 
+  array (
+    'v_id' => 'Jl98pVmvWu4',
+    'v_title' => 'Full Livestream 3/11/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/Jl98pVmvWu4/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/Jl98pVmvWu4?rel=0',
+  ),
+  5 => 
+  array (
+    'v_id' => '7j13JenXTaU',
+    'v_title' => '(Ma Sói) Nhà lập luận người Tày và pha lộ mic đi vào lòng đất.',
+    'v_thumb' => 'https://img.youtube.com/vi/7j13JenXTaU/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/7j13JenXTaU?rel=0',
+  ),
+  6 => 
+  array (
+    'v_id' => 'mEndh4Ov2DQ',
+    'v_title' => '(Talkshow) Chuẩn bị tiết mục cho đám cưới Xeme, khoe siêu xe mới của Tùng Sói.',
+    'v_thumb' => 'https://img.youtube.com/vi/mEndh4Ov2DQ/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/mEndh4Ov2DQ?rel=0',
+  ),
+  7 => 
+  array (
+    'v_id' => 'gyQrKSRBq4Q',
+    'v_title' => 'Full Livestream 2/11/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/gyQrKSRBq4Q/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/gyQrKSRBq4Q?rel=0',
+  ),
+  8 => 
+  array (
+    'v_id' => '5Rf0i0iQYJ4',
+    'v_title' => '(Phasmophobia) Cười ỉa với Biệt đội bắt ma cùng anh em Refund.',
+    'v_thumb' => 'https://img.youtube.com/vi/5Rf0i0iQYJ4/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/5Rf0i0iQYJ4?rel=0',
+  ),
+  9 => 
+  array (
+    'v_id' => 'NGNC5zrWkb4',
+    'v_title' => '(Talkshow) Tùng Sói lên sóng trước sinh nhật, Reaction Hà Mã tấu mở tâm thư từ Độ Mixi.',
+    'v_thumb' => 'https://img.youtube.com/vi/NGNC5zrWkb4/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/NGNC5zrWkb4?rel=0',
+  ),
+  10 => 
+  array (
+    'v_id' => 'kbAA1LrHZog',
+    'v_title' => 'Full Livestream 31/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/kbAA1LrHZog/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/kbAA1LrHZog?rel=0',
+  ),
+  11 => 
+  array (
+    'v_id' => 'k9mhhDW1uP0',
+    'v_title' => '(Day Z) Độ Tày thủ lĩnh của team mạnh nhất server.',
+    'v_thumb' => 'https://img.youtube.com/vi/k9mhhDW1uP0/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/k9mhhDW1uP0?rel=0',
+  ),
+  12 => 
+  array (
+    'v_id' => '_K7-1Cd0Zzo',
+    'v_title' => 'Full Livestream 29/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/_K7-1Cd0Zzo/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/_K7-1Cd0Zzo?rel=0',
+  ),
+  13 => 
+  array (
+    'v_id' => '1ipMFrut3vY',
+    'v_title' => '(Talkshow) Đàn ông tinh tế là phải biết chặt gà, Các món ăn lạ không phải ai cũng biết.',
+    'v_thumb' => 'https://img.youtube.com/vi/1ipMFrut3vY/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/1ipMFrut3vY?rel=0',
+  ),
+  14 => 
+  array (
+    'v_id' => '7NNm4J4sux4',
+    'v_title' => 'Full Livestream 26/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/7NNm4J4sux4/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/7NNm4J4sux4?rel=0',
+  ),
+  15 => 
+  array (
+    'v_id' => 'bya8yyn1mB8',
+    'v_title' => '(Ma Sói) Độ Tiên Tri và pha lộ mic hack não cả làng của KL7.',
+    'v_thumb' => 'https://img.youtube.com/vi/bya8yyn1mB8/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/bya8yyn1mB8?rel=0',
+  ),
+  16 => 
+  array (
+    'v_id' => 'Tm1KObbn4CE',
+    'v_title' => '(Talkshow) Bạn gái ở trường của Tùng Sói, cười ỉa khi xem ảnh đêm muộn cùng anh em Refund.',
+    'v_thumb' => 'https://img.youtube.com/vi/Tm1KObbn4CE/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/Tm1KObbn4CE?rel=0',
+  ),
+  17 => 
+  array (
+    'v_id' => 'vRfh0V1n6j0',
+    'v_title' => 'Full Livestream 23/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/vRfh0V1n6j0/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/vRfh0V1n6j0?rel=0',
+  ),
+  18 => 
+  array (
+    'v_id' => 'mi8gyzTaSQw',
+    'v_title' => '(Mixigaming GTA) Anh em Refund đấu đá giành Top 1 và Cuộc chiến không hồi kết.',
+    'v_thumb' => 'https://img.youtube.com/vi/mi8gyzTaSQw/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/mi8gyzTaSQw?rel=0',
+  ),
+  19 => 
+  array (
+    'v_id' => '1xLClvWaOss',
+    'v_title' => 'Full Livestream 22/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/1xLClvWaOss/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/1xLClvWaOss?rel=0',
+  ),
+  20 => 
+  array (
+    'v_id' => '-zrXNP4mvEs',
+    'v_title' => '(Mixigaming GTA V) Độ Tày trở lại đường đua cùng đồng bọn vào bar quẩy banh nóc.',
+    'v_thumb' => 'https://img.youtube.com/vi/-zrXNP4mvEs/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/-zrXNP4mvEs?rel=0',
+  ),
+  21 => 
+  array (
+    'v_id' => 'U1F0S2zUd7A',
+    'v_title' => '(Among Us) Sát thủ Độ Tày giả ngu và cái kết một mình bẻ cổ cả làng.',
+    'v_thumb' => 'https://img.youtube.com/vi/U1F0S2zUd7A/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/U1F0S2zUd7A?rel=0',
+  ),
+  22 => 
+  array (
+    'v_id' => 'UMHOJetSnIo',
+    'v_title' => '(Talkshow) Làm gì khi người yêu hay dỗi, đi làm công ty cần chuẩn bị những gì.',
+    'v_thumb' => 'https://img.youtube.com/vi/UMHOJetSnIo/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/UMHOJetSnIo?rel=0',
+  ),
+  23 => 
+  array (
+    'v_id' => 'EZzHBJLLhGc',
+    'v_title' => 'Full Livestream 21/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/EZzHBJLLhGc/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/EZzHBJLLhGc?rel=0',
+  ),
+  24 => 
+  array (
+    'v_id' => 'A8I6p7jKspM',
+    'v_title' => '(Talkshow) Độ Mixi trải lòng sau khi Reaction clip Xemesis đi du lịch tại Six Senses Ninh Vân Bay.',
+    'v_thumb' => 'https://img.youtube.com/vi/A8I6p7jKspM/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/A8I6p7jKspM?rel=0',
+  ),
+  25 => 
+  array (
+    'v_id' => 'QTve1p7FRN0',
+    'v_title' => 'Full Livestream 20/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/QTve1p7FRN0/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/QTve1p7FRN0?rel=0',
+  ),
+  26 => 
+  array (
+    'v_id' => 'F01qW6qYfuI',
+    'v_title' => 'Full Livestream 16/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/F01qW6qYfuI/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/F01qW6qYfuI?rel=0',
+  ),
+  27 => 
+  array (
+    'v_id' => 'n44RKy96v9c',
+    'v_title' => '(Talkshow) Kế hoạch làm talkshow cùng mẹ Lý, giá trị cặp nhẫn cưới của 2 vợ chồng.',
+    'v_thumb' => 'https://img.youtube.com/vi/n44RKy96v9c/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/n44RKy96v9c?rel=0',
+  ),
+  28 => 
+  array (
+    'v_id' => 'Z7P2U-Qkyds',
+    'v_title' => 'Full Livestream 15/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/Z7P2U-Qkyds/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/Z7P2U-Qkyds?rel=0',
+  ),
+  29 => 
+  array (
+    'v_id' => 'ZpWlhOmJVFM',
+    'v_title' => '(Ma Sói) Cảm nhận về Iphone12, Chuyện đi in ảnh và lời nguyền làm dân cứu cả làng.',
+    'v_thumb' => 'https://img.youtube.com/vi/ZpWlhOmJVFM/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/ZpWlhOmJVFM?rel=0',
+  ),
+  30 => 
+  array (
+    'v_id' => 'NCxsmcHW0-w',
+    'v_title' => 'Full Livestream 14/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/NCxsmcHW0-w/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/NCxsmcHW0-w?rel=0',
+  ),
+  31 => 
+  array (
+    'v_id' => 'IyblYEp-0B4',
+    'v_title' => '(Ma Sói) Độ Thợ Săn và quyết tâm cứu cả làng khỏi tay bọn sói gian ác.',
+    'v_thumb' => 'https://img.youtube.com/vi/IyblYEp-0B4/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/IyblYEp-0B4?rel=0',
+  ),
+  32 => 
+  array (
+    'v_id' => 'iVfBy5aKDw0',
+    'v_title' => '(Talkshow) Tuổi trẻ sống tiết kiệm hay sống hết mình, Cưới sớm và những điều cần biết.',
+    'v_thumb' => 'https://img.youtube.com/vi/iVfBy5aKDw0/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/iVfBy5aKDw0?rel=0',
+  ),
+  33 => 
+  array (
+    'v_id' => 'h04yxkfn4_k',
+    'v_title' => 'Full Livestream 12/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/h04yxkfn4_k/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/h04yxkfn4_k?rel=0',
+  ),
+  34 => 
+  array (
+    'v_id' => 'y5W8JWuNLaE',
+    'v_title' => '(Ma Sói) Nhà Tiên Tri duy nhất ăn bún đậu nước mắm Thanh Độ và đàn sói lươn lẹo.',
+    'v_thumb' => 'https://img.youtube.com/vi/y5W8JWuNLaE/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/y5W8JWuNLaE?rel=0',
+  ),
+  35 => 
+  array (
+    'v_id' => '02iGUniFTgo',
+    'v_title' => '(Bình luận) Ao làng PUBG trở lại với những pha bình luận cười ngoác mồm cùng BLV Độ Tày.',
+    'v_thumb' => 'https://img.youtube.com/vi/02iGUniFTgo/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/02iGUniFTgo?rel=0',
+  ),
+  36 => 
+  array (
+    'v_id' => 'Zi8j-4CZe-M',
+    'v_title' => '(Talkshow) Độ Mixi trải lòng sau khi nhận được donate khủng.',
+    'v_thumb' => 'https://img.youtube.com/vi/Zi8j-4CZe-M/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/Zi8j-4CZe-M?rel=0',
+  ),
+  37 => 
+  array (
+    'v_id' => 'OF00R2r_DpU',
+    'v_title' => 'Full Livestream 8/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/OF00R2r_DpU/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/OF00R2r_DpU?rel=0',
+  ),
+  38 => 
+  array (
+    'v_id' => 'B1Wl1GVTGzU',
+    'v_title' => '(Party Animals) Chiến thuật giả chết của Lươn Thanh Độ.',
+    'v_thumb' => 'https://img.youtube.com/vi/B1Wl1GVTGzU/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/B1Wl1GVTGzU?rel=0',
+  ),
+  39 => 
+  array (
+    'v_id' => 'CMCl08lpHCk',
+    'v_title' => 'STREAM ĐẾN BAO GIỜ - ĐỘ MIXI ft. BẠN SÁNG TÁC [OFFICIAL LYRICS VIDEO]',
+    'v_thumb' => 'https://img.youtube.com/vi/CMCl08lpHCk/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/CMCl08lpHCk?rel=0',
+  ),
+  40 => 
+  array (
+    'v_id' => 'glLTJPTfL_8',
+    'v_title' => '(Talkshow) Có nên bỏ học để làm streamer, sở thích ăn cơm uống nước ngọt.',
+    'v_thumb' => 'https://img.youtube.com/vi/glLTJPTfL_8/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/glLTJPTfL_8?rel=0',
+  ),
+  41 => 
+  array (
+    'v_id' => 'FFYEQjhpOMk',
+    'v_title' => 'Full Livestream 7/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/FFYEQjhpOMk/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/FFYEQjhpOMk?rel=0',
+  ),
+  42 => 
+  array (
+    'v_id' => 'dkTvdSx1IZ8',
+    'v_title' => '(Party Animals) Cười bể bụng khi chơi thú đấm nhau siêu đáng yêu cùng anh em Refund.',
+    'v_thumb' => 'https://img.youtube.com/vi/dkTvdSx1IZ8/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/dkTvdSx1IZ8?rel=0',
+  ),
+  43 => 
+  array (
+    'v_id' => 'tR5KV6zvp0g',
+    'v_title' => 'Full Livestream 6/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/tR5KV6zvp0g/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/tR5KV6zvp0g?rel=0',
+  ),
+  44 => 
+  array (
+    'v_id' => 'pTsi3ELyWR4',
+    'v_title' => '(The Paper Doll #1) Thử thách không sợ khi chơi game kinh dị Trung Quốc.',
+    'v_thumb' => 'https://img.youtube.com/vi/pTsi3ELyWR4/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/pTsi3ELyWR4?rel=0',
+  ),
+  45 => 
+  array (
+    'v_id' => 'ov7lhprB9js',
+    'v_title' => '(Unravel Two #1) Nhức đầu gồng gánh em Nhím khi chơi game giải đố cuộn len siêu bánh cuốn.',
+    'v_thumb' => 'https://img.youtube.com/vi/ov7lhprB9js/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/ov7lhprB9js?rel=0',
+  ),
+  46 => 
+  array (
+    'v_id' => 'U4UxfUT29aA',
+    'v_title' => '(Talkshow) Chuyện đi cắt tóc mất điện, nghiên cứu nên đi ỉa bao nhiêu lần một ngày.',
+    'v_thumb' => 'https://img.youtube.com/vi/U4UxfUT29aA/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/U4UxfUT29aA?rel=0',
+  ),
+  47 => 
+  array (
+    'v_id' => 'w1DV0MU-cDM',
+    'v_title' => 'Full Livestream 5/10/2020.',
+    'v_thumb' => 'https://img.youtube.com/vi/w1DV0MU-cDM/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/w1DV0MU-cDM?rel=0',
+  ),
+  48 => 
+  array (
+    'v_id' => 'kqHgk9rdifw',
+    'v_title' => '(Talkshow Q&A) Cùng bà chủ kênh Trang Mixi trả lời câu hỏi, gạ gẫm đi đẻ ngay trên stream.',
+    'v_thumb' => 'https://img.youtube.com/vi/kqHgk9rdifw/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/kqHgk9rdifw?rel=0',
+  ),
+  49 => 
+  array (
+    'v_id' => 'dFqKlwhNe0A',
+    'v_title' => 'Mixigaming cùng anh em huynh đệ xem lại các MV ca nhạc ngày xưa.',
+    'v_thumb' => 'https://img.youtube.com/vi/dFqKlwhNe0A/maxresdefault.jpg',
+    'v_embed' => 'https://www.youtube.com/embed/dFqKlwhNe0A?rel=0',
+  ),
+)
