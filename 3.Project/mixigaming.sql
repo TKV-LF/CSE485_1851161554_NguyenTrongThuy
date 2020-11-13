@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 12, 2020 lúc 07:19 PM
--- Phiên bản máy phục vụ: 10.4.14-MariaDB
--- Phiên bản PHP: 7.4.9
+-- Thời gian đã tạo: Th10 13, 2020 lúc 08:23 PM
+-- Phiên bản máy phục vụ: 10.4.11-MariaDB
+-- Phiên bản PHP: 7.4.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -44,7 +45,20 @@ INSERT INTO `log` (`stt`, `name`, `action`, `time`) VALUES
 (9, 'tkv', 'đã xóa video có id = 52', '2020-11-12 14:42:28'),
 (10, 'tkv', 'đã xóa video có id = 51', '2020-11-12 14:42:31'),
 (11, 'tkv', 'đã xóa video có id = 50', '2020-11-12 14:42:34'),
-(12, 'tkv', 'đã xóa video có id = 49', '2020-11-12 14:42:39');
+(12, 'tkv', 'đã xóa video có id = 49', '2020-11-12 14:42:39'),
+(13, 'tkv', ' đã thêm video test', '2020-11-13 22:22:33'),
+(14, 'tkv', 'đã xóa user có id = 12', '2020-11-13 23:00:07'),
+(15, 'tkv', 'đã xóa user có id = 11', '2020-11-13 23:00:32'),
+(16, 'tkv', 'đã xóa video có id = 55', '2020-11-13 23:07:56'),
+(19, 'tkv', 'đã xóa user có id = 10', '2020-11-13 23:13:49'),
+(37, 'tkv', ' đã thêm video asd', '2020-11-14 00:40:05'),
+(38, 'tkv', 'đã xóa video có id = 60', '2020-11-14 00:40:52'),
+(39, 'tkv', 'đã sửa video có id = 1', '2020-11-14 00:41:05'),
+(40, 'tkv', 'đã xóa user có id = 14', '2020-11-14 00:42:06'),
+(42, 'tkv', 'đã thêm user', '2020-11-14 00:45:47'),
+(43, 'tkv', 'đã xóa user có id = 16', '2020-11-14 00:45:59'),
+(44, 'tkv', 'đã xóa user có id = 15', '2020-11-14 00:46:01'),
+(45, 'Awa', 'đã xóa user có id = 2', '2020-11-14 01:41:36');
 
 -- --------------------------------------------------------
 
@@ -68,10 +82,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `first_name`, `last_name`, `email`, `role`, `password`, `created_at`) VALUES
-(1, 'Awa', 'Thuy', 'Nguyen Trong', 'info@codewithawa.com', 'Admin', 'mypassword', '2018-01-08 05:52:58'),
-(2, 'thuongkhung', 'Nam', 'Tran Van', 'thuongkhungvu@gmail.com', 'Author', '904fdd5b053bfd044e222325afbedadb', '2020-09-18 09:58:11'),
-(3, 'tkv', 'Tuan', 'Phan Hoang', 'thuyngtrong@gmail.com', 'Admin', '$2y$10$zL3EA356Pgujmrh16.W4feH9BLlWSVWyz.E1D6bJ3bRrH5WCFrtTi', '2020-09-25 06:23:40'),
-(6, 'testacc', 'Quang', 'Phan Huu', 'thuongkhung2801@gmail.com', 'Author', '$2y$10$tvCZK0wH68CvvbxrgAdtFOG03ZdgzF1WBFX8LbrzJ860J2SKEJcRu', '2020-10-02 10:36:51');
+(1, 'Awa', 'Thuy', 'Nguyen Trong', 'info@codewithawa.com', 'Admin', '$2y$10$VCWt0p7mO3mJuqM91wDWJeh.xNk4XcowGxDAF7pUjqxcYjj6qBMJK', '2018-01-08 05:52:58'),
+(3, 'tkv', 'Tuan', 'Phan Hoang', 'thuyngtrong@gmail.com', 'Admin', '$2y$10$zL3EA356Pgujmrh16.W4feH9BLlWSVWyz.E1D6bJ3bRrH5WCFrtTi', '2020-09-25 06:23:40');
 
 -- --------------------------------------------------------
 
@@ -95,8 +107,8 @@ CREATE TABLE `videos` (
 --
 
 INSERT INTO `videos` (`id`, `video_type`, `video_id`, `title`, `thumbnail_url`, `slug`, `categoryslug`, `published_at`) VALUES
-(1, 'vlog', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Hywo2vnQLOY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'MixiVLOG#17: Nhà mới, cuộc sống mới của gia đình Độ Mixi\r\n', 'https://mixigaming.com/wp-content/uploads/2020/08/sddefault-1-324x160.jpg', 'mixivlog17-nha-moi-cuoc-song-moi-cua-gia-dinh-do-mixi', 'vlog', '2020-10-31 10:43:56'),
-(3, 'livestream history', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_I6XDC300lg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'Livestream ngày 23/7/2020', 'https://mixigaming.com/wp-content/uploads/2020/07/maxresdefault-37-534x462.jpg', 'livestream-ngày-23-7-2020', 'livestream-history', '2020-10-29 10:43:24'),
+(1, 'vlog', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_I6XDC300lg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'MixiVLOG#17: Nhà mới, cuộc sống mới của gia đình Độ Mixi', 'https://mixigaming.com/wp-content/uploads/2020/08/sddefault-1-324x160.jpg', 'mixivlog17-nha-moi-cuoc-song-moi-cua-gia-dinh-do-mixi', 'vlog', '2020-10-31 10:43:56'),
+(3, 'livestream history', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_I6XDC300lg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'Livestream ngày 23/7/2020', 'https://mixigaming.com/wp-content/uploads/2020/07/maxresdefault-37-534x462.jpg', 'livestream-ngày-23-7-2020', 'categorySlug', '2020-10-29 10:43:24'),
 (4, 'livestream history', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_I6XDC300lg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'Livestream ngày 24/7/2020', 'https://mixigaming.com/wp-content/uploads/2020/07/maxresdefault-37-534x462.jpg', 'livestream-ngày-24-7-2020', 'livestream-history', '2020-10-29 10:44:24'),
 (5, 'livestream history', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_I6XDC300lg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'Livestream ngày 26/7/2020', 'https://mixigaming.com/wp-content/uploads/2020/07/maxresdefault-37-534x462.jpg', 'livestream-ngày-26-7-2020', 'livestream-history', '2020-10-29 10:45:24'),
 (6, 'livestream history', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_I6XDC300lg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>', 'Livestream ngày 28/7/2020', 'https://mixigaming.com/wp-content/uploads/2020/07/maxresdefault-37-534x462.jpg', 'livestream-ngày-28-7-2020', 'livestream-history', '2020-10-29 10:46:24'),
@@ -163,19 +175,19 @@ ALTER TABLE `videos`
 -- AUTO_INCREMENT cho bảng `log`
 --
 ALTER TABLE `log`
-  MODIFY `stt` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `stt` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT cho bảng `videos`
 --
 ALTER TABLE `videos`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
 
 --
 -- Các ràng buộc cho các bảng đã đổ

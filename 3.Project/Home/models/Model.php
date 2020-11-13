@@ -1,5 +1,5 @@
 <?php
-require_once 'database.php';
+require_once 'configs/database.php';
 class Model {
   public function openConnect() {
     $connection = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME, DB_PORT);

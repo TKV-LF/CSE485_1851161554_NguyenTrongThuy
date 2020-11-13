@@ -11,32 +11,34 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/side-bar.css">
-    <link rel="stylesheet" href="/assets/css/nav.css">
-    <link rel="stylesheet" href="/assets/css/link.css">
-    <link rel="stylesheet" href="/assets/css/codingui.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/side-bar.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="/P/assets/css/link.css">
+    <link rel="stylesheet" href="/P/assets/css/codingui.css">
     <style>
         iframe {
             width: 100% !important;
             height: 560px !important;
         }
 
-
+        
     </style>
 </head>
 
 <body style="background-color: rgb(34,34,34);">
     <?php
-      include "includes/navbar.php";
+      require_once "includes/navbar.php";
+      error_reporting(E_ERROR | E_PARSE);
 
-    ?>
-    <section class="watch mt-5 pt-5">
+      
+    ?> 
+    <section class="watch mt-5 pt-5" style="background-color:#141424 !important;">
         <div class="container">
             <div class="row mt-5">
                 <div class="col-12 link">
-                    <p><a href="/">Trang Chủ</a> <small class="text-light">></small> <a href="/category/<?php echo $videos[0][6];  ?>" ><?php echo ucfirst($videos[0][1]); ?></a><small class="text-light"> > </small> <?php echo $videos[0][3]; ?></p>
+                    <p><a href="/P/">Trang Chủ</a> <small class="text-light">></small> <a href="/P/category/<?php echo ucfirst($videos[0][6]); ?>" ><?php echo ucfirst($videos[0][1]); ?></a><small class="text-light"> > </small> <?php echo $videos[0][3]; ?></p>
                 </div>
                 <div class="col-md-4 col-12 d-md-none d-block">
                     <small class="text-uppercase text-light"><?php echo $videos[0][1]; ?></small>
@@ -58,11 +60,11 @@
      ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/Scroll-To-Top-Button.js"></script>
-    <script src="/assets/js/Off-Canvas-Sidebar-Drawer-Navbar.js"></script>
-    <script src="/assets/js/Off-Canvas-Sidebar-Drawer-Navbar-1.js"></script>
-    <script src="/assets/js/buttonUp.js"></script>
-    <script src="/assets/js/searchButton.js"></script>
-    <script src="/assets/js/subnav.js"></script>
+    <script src="../assets/js/Scroll-To-Top-Button.js"></script>
+    <script src="../assets/js/Off-Canvas-Sidebar-Drawer-Navbar.js"></script>
+    <script src="../assets/js/Off-Canvas-Sidebar-Drawer-Navbar-1.js"></script>
+    <script src="../assets/js/buttonUp.js"></script>
+    <script src="../assets/js/searchButton.js"></script>
+    <script src="../assets/js/subnav.js"></script>
 </body>
 </html>

@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/side-bar.css">
-    <link rel="stylesheet" href="/assets/css/nav.css">
-    <link rel="stylesheet" href="/assets/css/link.css">
-    <link rel="stylesheet" href="/assets/css/codingui.css">
-
+    <link rel="stylesheet" href="/P/assets/css/style.css">
+    <link rel="stylesheet" href="/P/assets/css/footer.css">
+    <link rel="stylesheet" href="/P/assets/css/side-bar.css">
+    <link rel="stylesheet" href="/P/assets/css/nav.css">
+    <link rel="stylesheet" href="/P/assets/css/link.css">
+    <link rel="stylesheet" href="/P/assets/css/codingui.css">
+    
 
 </head>
 <style>
@@ -30,25 +30,25 @@
 <body style="background-color: rgb(34,34,34);" >
     <?php
       include "includes/navbar.php";
-
-
-    ?>
+      
+      
+    ?> 
     <div class="container mt-5 pt-5">
       <div class="row mt-5">
         <div class="col-12 link">
-            <p><a href="/">Trang Chủ</a> <small class="text-light">></small> <a href="/category/<?php echo $category[0][6];  ?>" ><?php echo ucfirst($category[0][1]); ?></a><small class="text-light"> > </small> <?php echo $category[0][3]; ?></p>
+            <p><a href="/P/">Trang Chủ</a> <small class="text-light">></small> <a href="/P/category/<?php echo $category[0][6];  ?>" ><?php echo ucfirst($category[0][1]); ?></a><small class="text-light"> > </small> </p>
         </div>
-
-        <?php
+        
+        <?php 
         $count = 0;
         foreach($category as $row){
             echo '<div class="col-12 col-md-4 pr-3 position-relative videoHover my-3"><div class="row"><div class="col-12"><div class="row"><div class="col-12">';
-            echo '<a href="/watch/'.$row['5'].'" class="text-decoration-none">';
+            echo '<a href="/P/watch/'.$row['5'].'" class="text-decoration-none">';
             echo '<img class="img-fluid" src="'.$row['4'].'" style="width: 100%;opacity: 0.68;">';
             echo '<img class="position-absolute playButton d-none d-md-block" src="https://mixigaming.com/wp-content/plugins/td-composer/legacy/Newspaper/assets/images/icons/ico-video-large@2x.png" style="width: 40px;height: 40px;left: 45%;bottom: 45%;">';
             echo '</a></div><div class="col-12">';
-            echo '<a href="/category/'.$row['6'].'" class="text-decoration-none" style="color:#B5B3CB !important;"><small>'.ucfirst($row['1']).'</small></a><br>';
-            echo '<a href="/watch/'.$row['5'].'" class="text-decoration-none text-white tit">';
+            echo '<a href="/P/category/'.$row['6'].'" class="text-decoration-none" style="color:#B5B3CB !important;"><small>'.ucfirst($row['1']).'</small></a><br>';
+            echo '<a href="/P/watch/'.$row['5'].'" class="text-decoration-none text-white tit">';
             echo substr($row[3], 0, 71).'...';
             echo '</a></div></div></div></div></div>';
             if (++$count == 12) break;
@@ -63,11 +63,11 @@
      ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/Scroll-To-Top-Button.js"></script>
-    <script src="/assets/js/Off-Canvas-Sidebar-Drawer-Navbar.js"></script>
-    <script src="/assets/js/Off-Canvas-Sidebar-Drawer-Navbar-1.js"></script>
-    <script src="/assets/js/buttonUp.js"></script>
-    <script src="/assets/js/searchButton.js"></script>
-    <script src="/assets/js/subnav.js"></script>
+    <script src="/P/assets/js/Scroll-To-Top-Button.js"></script>
+    <script src="/P/assets/js/Off-Canvas-Sidebar-Drawer-Navbar.js"></script>
+    <script src="/P/assets/js/Off-Canvas-Sidebar-Drawer-Navbar-1.js"></script>
+    <script src="/P/assets/js/buttonUp.js"></script>
+    <script src="/P/assets/js/searchButton.js"></script>
+    <script src="/P/assets/js/subnav.js"></script>
 </body>
 </html>

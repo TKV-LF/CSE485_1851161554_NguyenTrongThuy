@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $.ajax({
         //Xu ly truyen
         url: '/p3/getNotification.php',
@@ -18,4 +19,6 @@ $(document).ready(function() {
 
         }
     })
+
+
 });

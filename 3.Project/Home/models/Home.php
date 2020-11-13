@@ -3,7 +3,6 @@ require_once 'Model.php';
 
 class Home extends Model
 {
-  const TABLE_NAME = 'employees';
   public $connection;
 
 
@@ -30,7 +29,7 @@ class Home extends Model
     if (mysqli_num_rows($results) > 0) {
       $videos = mysqli_fetch_all($results);
     }
-    $this->closeConnect($this->connection);
+    // $this->closeConnect($this->connection);
     return $videos;
 
   }
@@ -45,5 +44,16 @@ class Home extends Model
     $this->closeConnect($this->connection);
     return $videos;
 
+  }
+
+  public function countVideo(){
+    $querySelect = 'SELECT video_type, categoryslug , COUNT(id) AS soLuongBanGhi FROM videos GROUP BY video_type ORDER BY soLuongBanGhi DESC';
+    $results = mysqli_query($this->connection, $querySelect);
+    $videos = [];
+    if (mysqli_num_rows($results) > 0) {
+      $videos = mysqli_fetch_all($results);
+    }
+    $this->closeConnect($this->connection);
+    return $videos;
   }
 }
